@@ -16,13 +16,8 @@ int main()
         cin>>a;
         v.push_back(a);
     }
-    while(!(v.empty()))
-    {
-        auto min=min_element(v.begin(),v.end());
-        w.push_back(*min);
-        v.erase(min);
-    }
-    for (int num : w) 
+    sort(v.begin(),v.end());
+    for (int num : v) 
             cout << num << " ";
         cout << endl;   
     
