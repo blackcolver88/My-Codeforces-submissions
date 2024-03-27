@@ -2,6 +2,7 @@
 https://codeforces.com/problemset/problem/439/A
 */
 #include <bits/stdc++.h>
+#define ll unsigned long long 
 using namespace std;
 int main()
 {
