@@ -1,5 +1,5 @@
 /*Problem link :
-https://codeforces.com/contest/1954/problem/A
+https://codeforces.com/contest/1520/problem/B
 */
 #include <bits/stdc++.h>
 #define l long
